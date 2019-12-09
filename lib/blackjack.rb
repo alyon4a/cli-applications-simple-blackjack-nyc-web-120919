@@ -39,6 +39,7 @@ def hit? (arg)
     new_card = deal_card
     return arg + new_card
   else 
+    invalid_command
     prompt_user
   end
 end
